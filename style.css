@@ -1,3 +1,12 @@
 *{
 	text-align: center;
 }
+
+h1 {
+	color: gray;
+}
+
+body {
+	background-image: url("https://pbs.twimg.com/media/DdcKUG6VMAApdSR.jpg") ;
+	background-size: 100% ;
+} 
