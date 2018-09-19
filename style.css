@@ -1,12 +1,39 @@
+
 *{
 	text-align: center;
+
 }
 
-h1 {
-	color: gray;
+* {
+	box-sizing: border-box;
+  }
+
+p {
+	color: white;
 }
 
 body {
-	background-image: url("https://pbs.twimg.com/media/DdcKUG6VMAApdSR.jpg") ;
-	background-size: 100% ;
+	background-color: #B6D6F2;
+	margin: 0 auto;
 } 
+
+.header {
+	height: 80%;
+	width: 100%;
+	background-color: #010A26;
+	box-align: center;
+	padding-top: 80px;
+	font-family: 'Mukta Malar', sans-serif;
+	font-size: 130px;
+	font-weight: normal;
+	line-height: 180px;	
+	color: white;
+}
+
+#bold {
+	font-weight: bold;
+}
+
+#slavik {
+	font-size: 160px;
+}
