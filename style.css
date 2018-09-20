@@ -17,6 +17,8 @@ body {
 	margin: 0 auto;
 } 
 
+/*Header*/
+
 .header {
 	height: 80%;
 	width: 100%;
@@ -30,6 +32,7 @@ body {
 	color: white;
 }
 
+
 #bold {
 	font-weight: bold;
 }
@@ -37,3 +40,20 @@ body {
 #slavik {
 	font-size: 160px;
 }
+
+/*Battlefield V*/
+
+.BFV_image {
+	
+}
+
+.BFV_info {
+	height: 600px;
+	width: 1400px;
+	background-color: #010A26;
+}
+
+.BFV_video {
+	
+}
+
