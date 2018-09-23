@@ -27,6 +27,7 @@ body {
 	color: white;
 	position: relative;
 	z-index: 2;
+	border-bottom: white solid 10px;
 }
 
 
@@ -46,19 +47,43 @@ body {
 	top: 450px;
 }
 
+.BFV_place {
+	position: absolute;
+	z-index: 5;
+	height: 200px;
+	width: 200px;
+	background-color: #010A26;
+	border: white solid 10px;
+	border-radius: 50%;
+	top: 540px;
+	left: 50px;
+}
+
+#BFV_place_number {
+	position: absolute;
+	z-index: 6;
+	text-align: center;
+	font-family: 'Mukta Malar', sans-serif;
+	font-size: 100px;
+	font-weight: 500px; 
+	top: 455px;
+	left: 110px;
+}
+
 .BFV_info {
 	height: 600px;
 	width: 1400px;
 	background-color: #010A26;
+	border-bottom: white solid 10px;
 	position: relative;
 	z-index: 4;
-	top: 450px;
+	top: 440px;
 }
 
 .BFV_info_content {
 	position: relative;
 	display: inline-block;
-	top: 131.25px;
+	top: 90px;
 	margin: 0px 25px;
 	border: #B6D6F2 solid 15px;
 }
@@ -68,13 +93,38 @@ body {
 .R6S_image {
 	position: relative;
 	z-index: 1;
-	top: 450px;
+	top: 440px;
 }
+
+.R6S_place {
+	position: absolute;
+	z-index: 5;
+	height: 200px;
+	width: 200px;
+	background-color: #ea8f2b;
+	border: white solid 10px;
+	border-radius: 50%;
+	top: 1580px;
+	left: 50px;
+}
+
+#R6S_place_number {
+	position: absolute;
+	z-index: 6;
+	text-align: center;
+	font-family: 'Mukta Malar', sans-serif;
+	font-size: 100px;
+	font-weight: 500px;
+	top: 1495px;
+	left: 110px;
+}
+
 
 .R6S_info {
 	height: 600px;
 	width: 1400px;
 	background-color: #ea8f2b;
+	border-bottom: white solid 10px;
 	position: relative;
 	z-index: 4;
 	top: 300px;
@@ -83,7 +133,7 @@ body {
 .R6S_info_content {
 	position: relative;
 	display: inline-block;
-	top: 131.25px;
+	top: 90px;
 	margin: 0px 25px;
 	border: #F4B876 solid 15px;
 }
@@ -94,4 +144,44 @@ body {
 	position: relative;
 	z-index: 1;
 	top: 250px;
+}
+
+.U4_place {
+	position: absolute;
+	z-index: 5;
+	height: 200px;
+	width: 200px;
+	background-color: #a02931;
+	border: white solid 10px;
+	border-radius: 50%;
+	top: 2640px;
+	left: 50px;
+}
+
+#U4_place_number {
+	position: absolute;
+	z-index: 6;
+	text-align: center;
+	font-family: 'Mukta Malar', sans-serif;
+	font-size: 100px;
+	font-weight: 500px;
+	top: 2555px;
+	left: 110px;
+}
+
+.U4_info {
+	height: 600px;
+	width: 1400px;
+	background-color: #a02931;
+	position: relative;
+	z-index: 4;
+	top: 200px;
+}
+
+.U4_info_content {
+	position: relative;
+	display: inline-block;
+	top: 90px;
+	margin: 0px 25px;
+	border: #010101 solid 15px;
 }
