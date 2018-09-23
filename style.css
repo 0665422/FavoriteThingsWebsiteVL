@@ -1,9 +1,3 @@
-
-*{
-	text-align: center;
-
-}
-
 * {
 	box-sizing: border-box;
   }
@@ -20,16 +14,19 @@ body {
 /*Header*/
 
 .header {
-	height: 80%;
-	width: 100%;
+	text-align: center;
+	height: 520px;
+	width: 1400px;
 	background-color: #010A26;
 	box-align: center;
-	padding-top: 80px;
+	padding-top: 60px;
 	font-family: 'Mukta Malar', sans-serif;
-	font-size: 130px;
-	font-weight: normal;
+	font-size: 100px;
+	font-weight: 400px;
 	line-height: 180px;	
 	color: white;
+	position: relative;
+	z-index: 2;
 }
 
 
@@ -38,22 +35,63 @@ body {
 }
 
 #slavik {
-	font-size: 160px;
+	font-size: 130px;
 }
 
 /*Battlefield V*/
 
 .BFV_image {
-	
+	position: absolute;
+	z-index: 1;
+	top: 450px;
 }
 
 .BFV_info {
 	height: 600px;
 	width: 1400px;
 	background-color: #010A26;
+	position: relative;
+	z-index: 4;
+	top: 450px;
 }
 
-.BFV_video {
-	
+.BFV_info_content {
+	position: relative;
+	display: inline-block;
+	top: 131.25px;
+	margin: 0px 25px;
+	border: #B6D6F2 solid 15px;
 }
 
+/*Rainbow Six Siege*/
+
+.R6S_image {
+	position: relative;
+	z-index: 1;
+	top: 450px;
+}
+
+.R6S_info {
+	height: 600px;
+	width: 1400px;
+	background-color: #ea8f2b;
+	position: relative;
+	z-index: 4;
+	top: 300px;
+}
+
+.R6S_info_content {
+	position: relative;
+	display: inline-block;
+	top: 131.25px;
+	margin: 0px 25px;
+	border: #F4B876 solid 15px;
+}
+
+/*Uncharted4*/
+
+.U4_image {
+	position: relative;
+	z-index: 1;
+	top: 250px;
+}
