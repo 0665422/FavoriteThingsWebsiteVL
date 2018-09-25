@@ -69,12 +69,12 @@ body {
 }
 
 .BFV_info {
-	height: 600px;
+	height: 550px;
 	width: 1400px;
 	background-color: #010A26;
 	position: relative;
 	z-index: 4;
-	top: 440px;
+	top: 470px;
 }
 
 .BFV_info_content {
@@ -100,7 +100,7 @@ body {
 	width: 200px;
 	background-color: #ea8f2b;
 	border-radius: 50%;
-	top: 1580px;
+	top: 1550px;
 	left: 50px;
 }
 
@@ -111,13 +111,13 @@ body {
 	font-family: 'Mukta Malar', sans-serif;
 	font-size: 100px;
 	font-weight: 500px;
-	top: 1495px;
+	top: 1465px;
 	left: 110px;
 }
 
 
 .R6S_info {
-	height: 600px;
+	height: 550px;
 	width: 1400px;
 	background-color: #ea8f2b;
 	position: relative;
@@ -148,7 +148,7 @@ body {
 	width: 200px;
 	background-color: #a02931;
 	border-radius: 50%;
-	top: 2640px;
+	top: 2540px;
 	left: 50px;
 }
 
@@ -159,12 +159,12 @@ body {
 	font-family: 'Mukta Malar', sans-serif;
 	font-size: 100px;
 	font-weight: 500px;
-	top: 2555px;
+	top: 2455px;
 	left: 110px;
 }
 
 .U4_info {
-	height: 600px;
+	height: 550px;
 	width: 1400px;
 	background-color: #a02931;
 	position: relative;
